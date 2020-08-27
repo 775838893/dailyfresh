@@ -1,0 +1,5 @@
+# 指定根据表中的哪些字段建立索引数据
+# 指定索引的属性，就是在哪些位置索引,这里索引名称，简介，详情
+{{ object.name }}
+{{ object.desc }}oods.detail }}
+{{ object.g
