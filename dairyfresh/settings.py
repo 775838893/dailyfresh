@@ -149,11 +149,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 # 发送邮件的邮箱
-EMAIL_HOST_USER = '775838893@qq.com'
+EMAIL_HOST_USER = 'your_email_address'
 # 在邮箱中设置的客户端授权密码
 EMAIL_HOST_PASSWORD = 'bfoqnmgiytnzbcia'
 # 收件人看到的发件人
-EMAIL_FROM = '天天生鲜<775838893@qq.com>'
+EMAIL_FROM = '天天生鲜<your_email_address>'
 # 以上这个配置信息，Django会自动读取，
 # 使用账号以及授权码进行登录，
 # 如果登录成功，可以发送邮件
